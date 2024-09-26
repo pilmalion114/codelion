@@ -1,0 +1,42 @@
+
+
+.first{
+    display: flex;
+    height:300px;
+    border: 1px solid black;
+
+}
+
+item{
+ 
+}
+
+.first :nth-child(1){
+    order:3;
+    position: relative;
+    left:-60px;
+}
+
+.first :nth-child(2){
+    order:1;
+    position: relative;
+    right:-120px;
+    top:120px;
+    
+    
+}
+
+.first :nth-child(3){
+    order:2;
+    text-align: center;
+    position: relative;
+    top:100px;
+    right:-270px;
+    font-size: 80%;
+    
+}
+
+
+
+
+
